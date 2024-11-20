@@ -4,7 +4,7 @@ public class PangramChecker {
     boolean isPangram = checkIfPangram(input.toLowerCase());
     if (isPangram) {
     System.out.println("The input is a pangram.");
-    } else {
+    }else {
     System.out.println("The input is not a pangram.");
     }
     }
